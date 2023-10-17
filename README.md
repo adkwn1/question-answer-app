@@ -40,12 +40,6 @@ Open a web browser and navigate to http://localhost:10000 to interact with the p
 - transformers
 - sentence_transformers
 
-## Link to Live Web App
-
-TBD
-
-Note: Hosted via free service. Please allow time to wake by refreshing your requests to the page.
-
 ## Screenshots
 
 ![qa_model2](https://github.com/adkwn1/question-answer-app/assets/119823114/d463b05d-adad-427e-bcb1-3b2af3645dfc)
