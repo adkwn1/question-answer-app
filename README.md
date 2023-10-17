@@ -16,11 +16,15 @@ Model 2: Text-Generation
 
 The task for all three cases are designed to provide closed-book answers in order to provide appropriate responses to domain specific questions. For proof of concept purposes, the domain in this case are questions related to Python based on community provided topics and responses on Stack Overflow. As such, validity of answers may vary.
 
+## Dataset
+The dataset can be downloaded from Kaggle (https://www.kaggle.com/datasets/stackoverflow/pythonquestions). The provided notebook (nb_parser.ipynb) was used to clean and merge the dataset, and export the final .csv file(s) for usage.
+
 ## Usage - Local Browser
 
 To run the project in a local web browser, clone the repository ensuring the files are in the correct directory structure:
 - app_combined.py (top level)
 - .streamlit/config.toml
+- datasets/final_sample.csv (created via notebook from original dataset)
 
 The config.toml specifies the server address and port number to run the web app locally via streamlit. In command prompt or terminal, navigate to the cloned directory and run the following command:
 
