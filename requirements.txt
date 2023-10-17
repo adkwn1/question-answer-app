@@ -1,0 +1,6 @@
+pandas==1.5.2
+streamlit==1.27.2
+numpy==1.23.5
+pickleshare==0.7.5
+transformers==4.29.2
+sentence_transformers==2.2.2
