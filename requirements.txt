@@ -1,6 +1,0 @@
-pandas
-streamlit
-numpy
-pickleshare
-transformers
-sentence_transformers
