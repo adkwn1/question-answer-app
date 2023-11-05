@@ -8,7 +8,7 @@ This project was created as part of TripleTen's externship program in collaborat
 Model 1: Retrieval Augmented Generation (RAG) Question-Answering
 - Takes a user query and retrieves K-similar semantic matches
 - The retrieved responses are then passed to:
-  1) A fine-tuned T5 conditional generation model (available on HuggingFace: 'c-kilo-1/results') to generate an answer.
+  1) A fine-tuned T5 conditional generation model (available on HuggingFace: 'c-kilo-1/t5-sm-py-stackoverflow') to generate an answer.
   2) A pre-trained T5 model (t5-base) to summarize the retrieved responses based on K-similar returns.
 
 Model 2: Text-Generation
