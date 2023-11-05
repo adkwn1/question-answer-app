@@ -12,7 +12,7 @@ Model 1: Retrieval Augmented Generation (RAG) Question-Answering
   2) A pre-trained T5 model (t5-base) to summarize the retrieved responses based on K-similar returns.
 
 Model 2: Text-Generation
-- Takes a user query and provides an answer generated using a fine-tuned T5 conditional generation model ('c-kilo-1/results').
+- Takes a user query and provides an answer generated using a fine-tuned T5 conditional generation model ('c-kilo-1/t5-sm-py-stackoverflow').
 
 The task for all three cases are designed to provide closed-book answers in order to provide appropriate responses to domain specific questions. For proof of concept purposes, the domain in this case are questions related to Python based on community provided topics and responses on Stack Overflow. As such, validity of answers may vary.
 
