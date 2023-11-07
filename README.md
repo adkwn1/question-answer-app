@@ -27,7 +27,7 @@ To run the project in a local web browser, clone the repository ensuring the fil
 - app_demo.py (top level)
 - .streamlit/config.toml
 - datasets/final_sample.csv (created via notebook from original dataset)
-  -  Can use 'datasets/final_sample.small.csv' for limited demo
+  -  Can use 'datasets/final_sample_small.csv' for limited demo
 
 The config.toml specifies the server address and port number to run the web app locally via streamlit. In command prompt or terminal, navigate to the cloned directory and run the following command:
 
