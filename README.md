@@ -17,7 +17,9 @@ Model 2: Text-Generation
 The task for all three cases are designed to provide closed-book answers in order to provide appropriate responses to domain specific questions. For proof of concept purposes, the domain in this case are questions related to Python based on community provided topics and responses on Stack Overflow. As such, validity of answers may vary.
 
 ## Dataset
-Added a small sample of the final dataset for demonstrative purposes (15,000 entries, ~20 MB). The dataset can be downloaded from Kaggle (https://www.kaggle.com/datasets/stackoverflow/pythonquestions). The provided notebook (nb_parser.ipynb) was used to clean and merge the dataset, and export the final .csv file(s) for usage.
+Added a small sample of the final dataset for demonstrative purposes (15,000 entries, ~20 MB). 
+
+The main dataset can be downloaded from Kaggle (https://www.kaggle.com/datasets/stackoverflow/pythonquestions). The provided notebook (nb_parser.ipynb) was used to clean and merge the dataset, and export the final .csv file(s) for usage.
 
 ## Usage - Local Browser
 
